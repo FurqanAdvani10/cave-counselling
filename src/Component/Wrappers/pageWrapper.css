@@ -1,0 +1,55 @@
+.wrapper-main {
+    width: 100%;
+    height: 400px;
+    background-image: url(../../Assets/01.2ef446bdfc428cbfe22e.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Courses Heading */
+.wrapper-heading {
+    text-align: center;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    z-index: 2;
+}
+
+.wrapper-heading > h4 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.wrapper-heading > h6 {
+    font-size: 16px;
+    margin-bottom: 20px !important;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.wrapper-heading > h6 > span:hover {
+    transition: all 0.4s;
+    font-weight: 600 !important;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .wrapper-heading > h6{
+        font-weight: 400;
+        line-height: 15px;
+    }
+    .wrapper-heading > h4 {
+        font-size: 35px;
+        font-weight: 700;
+        margin-bottom: 20px !important;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+  
+  } 

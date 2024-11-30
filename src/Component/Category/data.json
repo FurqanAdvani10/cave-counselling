@@ -1,0 +1,33 @@
+[
+    {
+      "icon": "fa-chalkboard-teacher",  
+      "title": "Tutoring",
+      "desc": "At Sunlight, we provide personalized tutoring services tailored to each student's needs. Our experienced educators focus on building a strong foundation in various subjects."
+    },
+    {
+      "icon": "fa-language",  
+      "title": "Language Courses",
+      "desc": "Sunlight offers comprehensive language courses designed to enhance proficiency and fluency in multiple languages, with experienced instructors and interactive learning methods."
+    },
+    {
+      "icon": "fa-book-open",  
+      "title": "Test Preparation",
+      "desc": "Prepare for exams with confidence! Sunlight's test preparation services help students master the content and skills needed for academic success."
+    },
+    {
+      "icon": "fa-chalkboard",  
+      "title": "Workshops",
+      "desc": "Join Sunlight's workshops to gain practical skills and hands-on experience in various subjects, facilitated by expert instructors in an interactive environment."
+    },
+    {
+      "icon": "fa-laptop", 
+      "title": "Online Learning",
+      "desc": "Sunlight offers flexible online learning options, allowing students to access high-quality education from the comfort of their homes, with engaging content and real-time support."
+    },
+    {
+      "icon": "fa-users",
+      "title": "Parental Support",
+      "desc": "Sunlight believes in involving parents in the learning process. Our parental support programs ensure a collaborative approach to students' academic and personal growth."
+    }
+  ]
+  
