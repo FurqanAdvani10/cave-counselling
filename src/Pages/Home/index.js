@@ -1,15 +1,17 @@
 import React from 'react'
-import { Features, Achieve, Category, HeroSection, OurTeam, Testimonials } from '../../Component'
+import { Category, HeroSection, Testimonials, FAQ, GetInTouchMap, AboutUs, AboutMe, Services } from '../../Component'
 
 function Home() {
   return (
     <div>
         <HeroSection />
         <Category />
-        <Features />
-        <Achieve />
-        <OurTeam />
+        <Services />
+        <AboutMe />
+        <AboutUs />
+        <GetInTouchMap />
         <Testimonials />
+        <FAQ />
     </div>
   )
 }

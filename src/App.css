@@ -18,11 +18,12 @@ body {
 }
 .heading-with-sub > h3{
   font-size: 40px;
+  color: var(--third-them-color);
   font-weight: 700;
 }
 .heading-with-sub > p{
   margin-top: 15px !important;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 @media (max-width: 768px) {
@@ -57,5 +58,6 @@ body {
     --font-family: inherit;
     --stylish-font : "Leckerli One", cursive;
     --main-heading : 70px;
+    --third-them-color  :  #254336;
   };
 

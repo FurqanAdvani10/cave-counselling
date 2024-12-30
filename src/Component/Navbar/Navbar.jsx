@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import './navbar.css';
 import { useNavigate } from 'react-router-dom';
-import logo from '../../Assets/logo.png';
+import logo from '../../Assets/logocave.png';
 
 function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -30,6 +30,7 @@ function Header() {
       <div className="container">
         <div className="navbar-logo" onClick={() => navigate('/')}>
           <img src={logo} alt="Logo" />
+          {/* <h4>CAVE <span>COUNSELLING</span></h4> */}
         </div>
         <button className="navbar-toggler" type="button" onClick={handleMenuClick} aria-controls="navbarNav" aria-expanded={menuOpen ? 'true' : 'false'} aria-label="Toggle navigation">
           <FaBars />
@@ -40,20 +41,20 @@ function Header() {
               <a className="nav-link"  onClick={() => navigate('/')}>Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" onClick={() => navigate('/courses')}>Courses</a>
+              <a className="nav-link" href="#services">Our Services</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" onClick={() => navigate('/ourTeam')}>Our Team</a>
+            <a className="nav-link"  href='#about-us'>About Us</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link"  onClick={() => navigate('/about')}>About Us</a>
+              <a className="nav-link"  href="#faq">FAQ</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link"  onClick={() => navigate('/contactUs')}>Contact Us</a>
+              <a className="nav-link" href='#contact-us'>Contact Us</a>
             </li>
           </ul>
           <div className="navbar-icons">
-            <button className="btn btn-outline-primary">Register Now</button>
+            <button className="btn btn-outline-primary">Book Now</button>
           </div>
         </div>
       </div>

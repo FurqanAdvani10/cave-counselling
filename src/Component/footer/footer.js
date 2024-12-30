@@ -5,7 +5,6 @@ import { IoIosMailOpen } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoIosSend } from "react-icons/io";
 import { CiCircleCheck } from "react-icons/ci";
-import footerLogo from '../../Assets/logo.png'
 
 
 
@@ -122,7 +121,7 @@ function Footer() {
 
                                 <div className='right-side'>
                                     <h4>
-                                        © Copyrights, 2024 Sunlight Tuition Center
+                                        © Copyrights, 2024 Cave counselling
                                     </h4>
                                 </div>
                                 <div className='left-side'>

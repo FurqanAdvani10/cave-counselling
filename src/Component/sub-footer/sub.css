@@ -4,8 +4,8 @@
     display: flex;
 }
 .sub-logo img{
-    width: 100px;
-    /* height: 180px; */
+    width: 250px;
+    height: auto;
 }
 .sub-content{
     display: flex;

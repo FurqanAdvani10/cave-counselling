@@ -1,5 +1,5 @@
 import './sub.css'
-import logo from '../../Assets/logo.png'
+import logo from '../../Assets/logocave.png'
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa6'
 
 function SubFooter() {
@@ -14,7 +14,7 @@ function SubFooter() {
                             </div>
                             <div className='sub-link'>
                                 <h4 className='p-0 m-0'>
-                                    Want Us To Email You About Special Offers And Updates? - <span>INFO@STLCEDU.COM</span>
+                                    Want Us To Email You About Special Offers And Updates? - <span>INFO@CAVE.COM</span>
                                 </h4>
                             </div>
                             <div className='sub-icons'>
