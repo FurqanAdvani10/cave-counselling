@@ -7,7 +7,7 @@ function GetInTouchMap() {
 
 
     const infoCards = [
-        { title: "Head Office", address: "Shop No. 3 & 4 Iqbal Plaza, Opposite Saylani Welfare,Near Saleh Ration Shop,Kharadar,Karachi.​", icon: <FaMapMarkerAlt /> },
+        { title: "Head Office", address: "Wood street Walthamstow, east London​", icon: <FaMapMarkerAlt /> },
         { title: "Phone Number", address: "07777 966 289", icon: <FaPhoneAlt /> },
         { title: "Send Email", address: "cavecounselling@outlook.com", icon: <FaEnvelope /> },
         { title: "Instagram", address: "cavecounselling", icon: <FaInstagram /> },
@@ -66,7 +66,7 @@ function GetInTouchMap() {
                                         style={{
                                             // border: "0",
                                             width: "100%", // Make the width responsive
-                                            height: "410px", // Fixed height
+                                            height: "390px", // Fixed height
                                         }}
                                         allowfullscreen=""
                                         loading="lazy"
