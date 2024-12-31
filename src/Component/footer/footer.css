@@ -65,6 +65,15 @@
   .footer-icons .icon {
     font-size: 25px;
   }
+  .sub-footer-content {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+  }
+  .footer-text > span{
+      font-size: 9px;
+  }
 }
 
 @media (max-width: 1199px) {
