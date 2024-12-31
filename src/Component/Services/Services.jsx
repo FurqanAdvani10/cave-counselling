@@ -11,7 +11,7 @@ const Services = () => {
         if (isModalOpen) {
             return 'Adult Counselling at Cave Counselling'
         } else {
-            return 'child Counselling at Cave Counselling'
+            return 'Child Counselling at Cave Counselling'
         }
     }
 
@@ -27,7 +27,7 @@ const Services = () => {
                 <p>As an integrative counsellor, I draw on a range of approaches to meet your unique needs. Our work together will be client-led, focusing on what you choose to bring to each session. I may explore how your past shapes your present using psychodynamic techniques or introduce practical tools like CBT or mindfulness to help you manage day-to-day challenges. I believe you already have the resources within you to heal and grow. My role is to support and guide you, tailoring each session to your individual needs in a warm and non-judgmental environment.</p>
                 <p>Taking the first step can feel daunting, but you don’t have to face it alone. By working together, you can find clarity, strength, and a path forward.</p>
             </>
-        } else if (isModalOpenChild){
+        } else if (isModalOpenChild) {
             return <>
                 <p>There’s something magical about caves—their mystery sparks curiosity and a sense of adventure in children. Just like stepping into a cave, entering the counselling room invites exploration and discovery. Children naturally wonder: What will I uncover? What will this journey feel like?</p>
                 <p>Through play and creativity, children can connect with their thoughts and emotions in a safe and welcoming environment. Counselling offers them a chance to share their worries, express their feelings, and explore challenges in a way that feels natural and engaging.</p>
@@ -79,26 +79,43 @@ const Services = () => {
                 </div>
 
             </div>
-            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
+            <div
+                class="modal fade"
+                id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog modal-dialog-scrollable">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h1 class="modal-title fs-5" id="staticBackdropLabel">{renderTitle()}</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick={() => onClose()}></button>
+                            <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                                onClick={() => onClose()}
+                            ></button>
                         </div>
                         <div class="modal-body">
                             {renderContent()}
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-success" data-bs-dismiss="modal" onClick={() => onClose()}>Close</button>
-                            {/* <button type="button" class="btn btn-success">Understood</button> */}
+                            <button
+                                type="button"
+                                class="btn btn-success border-radius"
+                                data-bs-dismiss="modal"
+                                onClick={() => onClose()}
+                            >
+                                Close
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
-            {/* <Modal title={renderTitle()} open={isModalOpen || isModalOpenChild} className='' onOk={handleOk} onCancel={handleCancel}> */}
-            {/* {renderContent()} */}
-            {/* </Modal> */}
         </>
 
     )

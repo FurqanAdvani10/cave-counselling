@@ -9,10 +9,10 @@
   
   .map-section {
     width: 100%;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     padding: 5px;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(186,198,176, 0.1);
+    box-shadow: 0 4px 12px rgba(186,198,176, 0.55);
   }
   
   .info-cards {
@@ -30,8 +30,8 @@
     width: 100%;
     gap: 20px;
     background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(186,198,176, 0.1);
+    /* border-radius: 8px; */
+    box-shadow: 0 2px 8px rgba(186,198,176, 0.55);
   }
   
   .info-card-content {

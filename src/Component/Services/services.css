@@ -69,7 +69,7 @@
     background: var(--them-color);
     color: white;
     border: none;
-    /* border-radius: 50px; */
+    border-radius: 0px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -99,4 +99,14 @@
     .service-card-content h4 {
         font-size: 28px;
     }
+}
+.modal-body{
+    padding: 20px;
+}
+.modal-body p {
+    font-size: 14px;
+    /* padding: 20px; */
+}
+.border-radius{
+    border-radius: 0px;
 }
